@@ -17,7 +17,7 @@ class ModelTest extends TestCase
      */
     protected $model;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
