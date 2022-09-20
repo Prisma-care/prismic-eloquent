@@ -1,6 +1,7 @@
-# ARCHIVED
-Please note that this repository is archived. Prismic does not seem to update anything on their end to the PHP package and makes updating dependencies
-very hard. Feel free to fork this repo and maintain it.
+# Notice
+Base repository is not maintained anymore. This fork is merely created to keep using Prismic for Laravel 9 projects.
+
+It's not using the official [prismicio/php-kit](https://github.com/prismicio/php-kit/) package as this is the actual blocker of upgrading due to it's Guzzle and PHP version dependencies (at the time of writing). Instead a fork of the SDK is used, created to use the Prismic API with recent PHP frameworks: [elgentos/prismic-php-sdk](https://github.com/elgentos/prismicio-php-kit). See [issue PR190 at prismicio/php-kit](https://github.com/prismicio/php-kit/pull/190#issuecomment-1242801946)
 
 # Prismic Eloquent
 Use the Prismic Api in a more (friendly) eloquent like way.
